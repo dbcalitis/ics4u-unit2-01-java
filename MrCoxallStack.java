@@ -18,7 +18,7 @@ public class MrCoxallStack {
     private ArrayList<Number> stack = new ArrayList<Number>();
 
     /**
-     * The Push() function.
+     * The pushItem() function.
      *
      * <p>
      * It adds a number to the stack ArrayList.
@@ -26,12 +26,12 @@ public class MrCoxallStack {
      *
      * @param pushedNumber - the number to be added to the stack.
      */
-    public void push(int pushedNumber) {
+    public void pushItem(int pushedNumber) {
         stack.add(pushedNumber);
     }
 
     /**
-     * The ShowStack() function.
+     * The showStack() function.
      *
      * Shows the items of the stack.
      */

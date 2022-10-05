@@ -37,7 +37,7 @@ final class Main {
 
         System.out.print("Enter a number: ");
         final int userNum = scan.nextInt();
-        stack.push(userNum);
+        stack.pushItem(userNum);
 
         stack.showStack();
 
