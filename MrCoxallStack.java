@@ -33,7 +33,9 @@ public class MrCoxallStack {
     /**
      * The showStack() function.
      *
+     * <p>
      * Shows the items of the stack.
+     * </p>
      */
     public void showStack() {
         System.out.println(stack);
